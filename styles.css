@@ -127,9 +127,32 @@ footer {
   color: #777;
 }
 
-legend {
-  font-weight: bold;
-  margin-bottom: 10px;
+.keret{
+  display: flex;
+  border: solid grey 2px;
+  margin: auto;
+}
+
+.kepek img{
+  display: flex;
+  width: 800px;
+}
+
+.kepek{
+  margin: auto;
+}
+
+.ezaz{
+  text-align: center;
+}
+
+th{
+  text-align: right;
+  padding: 5px;
+}
+
+td{
+  text-align: left;
 }
 
 @media screen and (max-width: 992px) {
