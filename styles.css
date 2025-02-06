@@ -127,6 +127,50 @@ footer {
   color: #777;
 }
 
+select,textarea{
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+textarea {
+  min-height: 100px;
+}
+
+.specifikacio {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 992px) {
   .modellek {
     flex: 0 0 calc(50% - 40px);
