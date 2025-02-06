@@ -28,6 +28,12 @@ h1 {
     font-size: 35px;
 }
 
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
 article {
     display: flex;
     flex-direction: column;
@@ -88,9 +94,16 @@ textarea {
 }
 
 p{
-    margin-top: 5px;
+    margin-top: 25px;
+    margin-bottom: 1px;
 }
 
+.motor p{
+    margin-bottom: 15px;
+}
+.motor input{
+    margin-left: 10px;
+}
 
 .gomb button {
     align-items: center;
