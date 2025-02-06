@@ -127,6 +127,34 @@ footer {
   color: #777;
 }
 
+.keret{
+  display: flex;
+  border: solid grey 2px;
+  margin: auto;
+}
+
+.kepek img{
+  display: flex;
+  width: 800px;
+}
+
+.kepek{
+  margin: auto;
+}
+
+.ezaz{
+  text-align: center;
+}
+
+th{
+  text-align: right;
+  padding: 5px;
+}
+
+td{
+  text-align: left;
+}
+
 @media screen and (max-width: 992px) {
   .modellek {
     flex: 0 0 calc(50% - 40px);
