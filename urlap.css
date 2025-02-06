@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+select,textarea{
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+textarea {
+    min-height: 100px;
+}
+
+.specifikacio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+p{
+    margin-top: 25px;
+    margin-bottom: 1px;
+}
+
+.motor p{
+    margin-bottom: 15px;
+}
+.motor input{
+    margin-left: 10px;
+}
+
+.gomb button {
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+
+footer{
+    background-color: #007BFF;
+    width: 100%;
+}
+footer h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+footer h1:hover{
+    color: #007BFF;
+}
+footer:hover{
+    background-color: black;
+}
