@@ -90,8 +90,10 @@ textarea {
 .specifikacio {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    padding:  5px;
 }
+
+
 
 p{
     margin-top: 25px;
@@ -102,7 +104,9 @@ p{
     margin-bottom: 15px;
 }
 .motor input{
-    margin-left: 10px;
+    margin-right: 7px;
+    padding-right: 20px;
+    margin-left: 40px;
 }
 
 .gomb button {
