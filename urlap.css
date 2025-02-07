@@ -43,8 +43,6 @@ div {
     margin-bottom: 10px;
 }
 
-
-
 select,textarea{
     padding: 8px;
     margin-top: 5px;
@@ -62,8 +60,6 @@ textarea {
     flex-direction: row;
     padding:  5px;
 }
-
-
 
 p{
     margin-top: 25px;
