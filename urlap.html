@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="urlap.css">
+    <script type="module" src="urlap.js"></script>
     <title>Csoportmunka</title>
   </head>
   <body>
     <main>
       <header>
-        <img src="https://www.skoda.hu/skoda-logo.svg" alt="">
+        <img src="https://www.skoda.hu/skoda-logo.svg" alt="Skoda Logo">
       </header>
       <nav>
         <ul>
@@ -19,118 +20,32 @@
             <li><a href="skoda.html">Modellek</a></li>
         </ul>
       </nav>
-        <article>
-            <form  > 
-                <fieldset class="marka">
-                    <legend>Auto neve</legend>
-                    <div>
+      <article>
+        <form> 
+          <fieldset>
+            <legend>Autó adatai</legend>
+            <div>
+              <label for="nev">Auto neve:</label>
+              <input type="text" name="nev" id="nev" placeholder="Márka" required>
+            </div>
+            <div>
+              <label for="kep">Kép URL:</label>
+              <input type="url" name="kep" id="kep" placeholder="Kép URL" required>
+            </div>
+            <div>
+              <label for="ar">Ár (Ft):</label>
+              <input type="number" name="ar" id="ar" placeholder="Ár" required>
+            </div>
+          </fieldset>
 
-                        <input type="text" name="nev" id="nev"  placeholder="Márka">
-                    </div>
-                    <div>
-
-                        <input type="model" name="model" id="model" placeholder="Model" >
-                    </div>
-                    <div>
-
-                        <input type="text" name="evjarat" id="evjarat" placeholder="Évjárat">
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Üzemanyag</legend>
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="benzin">Benzin</option>
-                        <option value="dizel">Dízel</option>
-                        <option value="hibrid">Hibrid</option>
-                    </select>
-                </fieldset>
-                <fieldset class="motor">
-                    
-                    <legend>Motor</legend>
-                    <p>Hengerűrtartalom:</p>
-                    <div class="specifikacio">
-                        <input type="radio" name="specifikacio" id="98">
-                        <label for="elso">4/1,498</label>
-                        <input type="radio" name="specifikacio" id="84">
-                        <label for="masodik">4/1,984</label>
-                        <input type="radio" name="specifikacio" id="68">
-                        <label for="harmadik">4/1,968</label>
-                        
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Teljesítmény</legend>
-                    <p>Végsebesség (km/h)</p>
-                    
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="225">225</option>
-                        <option value="248">248</option>
-                        <option value="225">225</option>
-                    </select>
-                    <p>Gyorsulás 0-100km/h-ra (s)</p>
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="9.2">9.2</option>
-                        <option value="7.4">8.5</option>
-                        <option value="9.2">7.4</option>
-                    </select>
-
-                </fieldset>
-                <fieldset>
-                    <legend>Erőátvitel</legend>
-                    <p>Típus</p>
-                    
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="Elsőkerék">Elsőkerék-meghajtás</option>
-                        <option value="Hátsókerék">Hátsókerék-meghajtás</option>
-                        <option value="4x4">4x4</option>
-                    </select>
-                    <p>Sebességváltó</p>
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="Hétfokozatú">Hétfokozatú automata, DSG</option>
-                        <option value="Hatfokozatú">Hatfokozatú manuális</option>
-                        <option value="Ötfokozatú">Ötfokozatú manuális</option>
-                    </select>
-
-                </fieldset>
-
-                <fieldset>
-                    <legend>Tömeg</legend>
-                    <p>Megengedett vontatóterhelés fék nélkül (max. kg)</p>
-                    
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="szoftverfejleszto">750</option>
-                    </select>
-
-                    <p>Megengedett vontatóterhelés fékkel – 12% (max. kg)</p>
-                    
-                    <select name="teljesitmeny" id="teljesitmeny">
-                        <option value="2,2">2,200</option>
-                        <option value="2,0">2,000</option>
-                        <option value="1,8">1,800</option>
-                        <option value="1,6">1,600</option>
-                    </select>
-
-                </fieldset>
-
-                <fieldset>
-                    <legend>Vélemény</legend>
-                    <p>Írja meg a véleményét!</p>
-                <textarea name="velemeny" id="velemeny">
-
-                </textarea>
-                </fieldset>
-                
-                <div class="gomb">
-                    <button type="submit" href="skoda.html">Küld</button>
-                </div>
-                
-
-            </form>
-
-        </article>
-        <footer>
-            <p>&copy;Tóth Barnabás &copy;Dezső Vince &copy;Nagy Domminik</p>
-        </footer>
+          <div class="gomb">
+            <button type="submit">Küld</button>
+          </div>
+        </form>
+      </article>
+      <footer>
+        <p>&copy; Tóth Barnabás &copy; Dezső Vince &copy; Nagy Domminik</p>
+      </footer>
     </main>
   </body>
 </html>
